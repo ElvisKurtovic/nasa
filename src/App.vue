@@ -1,5 +1,5 @@
 <template>
-    <div class="app vh-100 bg-dark" :style="{backgroundImage: `url(${state.nasa})`}">
+    <div class="backgroundImage vh-100 bg-dark" :style="{backgroundImage: `url(${state.nasa})`}">
     <header class="container-fluid text-light">
       <div class="row ">
         <div class="col text-center">
@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style>
+.backgroundImage{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
