@@ -1,5 +1,5 @@
 <template>
-    <div class="app vh-100" :style="{backgroundImage: `url(${state.nasa})`}">
+    <div class="app vh-100 bg-dark" :style="{backgroundImage: `url(${state.nasa})`}">
     <header class="container-fluid text-light">
       <div class="row ">
         <div class="col text-center">
